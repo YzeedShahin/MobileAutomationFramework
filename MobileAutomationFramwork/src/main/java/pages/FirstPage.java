@@ -10,7 +10,7 @@ public class FirstPage extends BasePage {
     }
 //    you can create the selectors here
 //    @FindBy(xpath = "xpath']")
-//    WebElement jobsButton;
+//    WebElement element;
 
     public void clickOnTheFirstElement() {
         //here you can write the event you want this method to do

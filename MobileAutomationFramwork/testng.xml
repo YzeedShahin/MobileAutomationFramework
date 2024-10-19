@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Irukkaa">
+    <listeners>
+        <listener class-name="utils.listeners.AppiumListener"/>
+        <listener class-name="utils.listeners.RetryListener"/>
+    </listeners>
+    <test name="CreateJobTes">
+        <classes>
+            <class name="tests."/>
+        </classes>
+    </test>
+
+</suite>

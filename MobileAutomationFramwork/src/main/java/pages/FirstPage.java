@@ -9,11 +9,12 @@ public class FirstPage extends BasePage {
         super(driver);
     }
 //    you can create the selectors here
-//    @FindBy(xpath = "xpath']")
-//    WebElement element;
+    @FindBy(xpath = "xpath']")
+    WebElement element;
 
     public void clickOnTheFirstElement() {
         //here you can write the event you want this method to do
+        element.click();
     }
 
 
